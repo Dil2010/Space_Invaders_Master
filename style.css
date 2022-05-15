@@ -1,0 +1,105 @@
+body{
+    font-family:"Barlow Condensed",sans-serif ;
+}
+
+.Header_container{
+	width: 760px;
+	height: 1000px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Header_scoreboard{
+    height:150px;
+	width: 600px;
+    border:5px solid rgb(26, 20, 20);   
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+	margin-top: 50px;
+	margin-right:10px ;
+	margin-left:20px ;
+    border-radius: 10px;
+	background-color: #1B2B4C;
+	padding-bottom: 4px;
+}
+
+.Header_scoreboard_title{
+	width: 50px;
+	margin-left: 20px;
+	margin-bottom: 50px;	
+}
+
+
+.Header_scoreboard_title h2{
+	font-size: 40px;
+	color: aliceblue;
+}
+
+.results {
+	font-size: 20px;
+	color: blue;
+	padding-left: 70px;
+}
+
+.outcome{
+	font-size: 20px;
+	color: blue;
+	padding-left: 15px;
+}
+.score1 {
+	font-size: 30px;
+	padding-left: 20px;
+	
+}
+.score2 {
+	font-size: 30px;
+	padding-left: 15px;
+	
+}
+.Header_youscore{
+	/* display: flex; */
+	background-color: whitesmoke;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+	margin-left: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+.grid {
+	width: 600px;
+	height: 600px;
+	border: solid black 5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+}
+
+.invader {
+	background-color: purple;
+	border-radius: 10px;
+}
+
+.shooter {
+	background-color: green;
+}
+
+.laser {
+	background-color: orange;
+}
+
+.boom {
+	background-color: red;
+}
